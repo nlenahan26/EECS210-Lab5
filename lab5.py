@@ -29,7 +29,7 @@ def merge(list1, list2):
             merged_list.append(list2.pop(0))
 
     
-        if list1 ==[]:
+        if list1 == []:
             while len(list2) > 0:
                 merged_list.append(list2.pop(0))
 
